@@ -65,7 +65,7 @@ way is more convenient if you're dealing with large reaction networks.
    import os
    import numpy as np
    from matplotlib import pyplot as plt
-   from pMuTT.io_.thermdat import read_thermdat
+   from pMuTT.io.thermdat import read_thermdat
    from pMuTT import pMuTT_list_to_dict
    from pMuTT import reaction as rxn
    
@@ -119,6 +119,15 @@ Or calculate thermodynamic properties.
 
 .. figure:: reactions_example.png
    :alt: Reactions example
+
+ChemkinReaction
+===============
+
+This is a child class of :class:`~pMuTT.reaction.Reaction` but has additional
+attributes for reading and writting Chemkin files.
+
+.. autoclass:: pMuTT.reaction.ChemkinReaction
+   :members:
 
 Reactions
 =========

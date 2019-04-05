@@ -8,17 +8,16 @@ import unittest
 import numpy as np
 from ase.build import molecule
 from pMuTT.statmech import StatMech, presets
-from pMuTT.empirical import BaseThermo
+from pMuTT.empirical import EmpiricalBase
 
 
-class TestBaseThermo(unittest.TestCase):
+class TestEmpiricalBase(unittest.TestCase):
     def setUp(self):
         unittest.TestCase.setUp(self)
-        self.BaseThermo = BaseThermo(
+        self.EmpiricalBase = EmpiricalBase(
             name='H2O',
             elements={'H': 2, 'O': 1},
             phase='g',
-            statmech_model=StatMech,
             potentialenergy=-14.2209,
             atoms=molecule('H2O'),
             symmetrynumber=2,

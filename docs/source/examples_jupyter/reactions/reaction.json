@@ -3,14 +3,17 @@
  "reactants": [
   {
    "class": "<class 'pMuTT.empirical.nasa.Nasa'>",
+   "type": "nasa",
    "name": "H2",
    "phase": "G",
    "elements": {
     "H": 2
    },
    "notes": "TPIS78",
+   "smiles": null,
    "references": null,
    "statmech_model": null,
+   "mix_models": null,
    "a_low": [
     2.34433112,
     0.00798052075,
@@ -31,18 +34,23 @@
    ],
    "T_low": 200.0,
    "T_mid": 1000.0,
-   "T_high": 3500.0
+   "T_high": 3500.0,
+   "cat_site": null,
+   "n_sites": null
   },
   {
    "class": "<class 'pMuTT.empirical.nasa.Nasa'>",
+   "type": "nasa",
    "name": "O2",
    "phase": "G",
    "elements": {
     "O": 2
    },
    "notes": "TPIS89",
+   "smiles": null,
    "references": null,
    "statmech_model": null,
+   "mix_models": null,
    "a_low": [
     3.78245636,
     -0.00299673416,
@@ -63,7 +71,9 @@
    ],
    "T_low": 200.0,
    "T_mid": 1000.0,
-   "T_high": 3500.0
+   "T_high": 3500.0,
+   "cat_site": null,
+   "n_sites": null
   }
  ],
  "reactants_stoich": [
@@ -73,6 +83,7 @@
  "products": [
   {
    "class": "<class 'pMuTT.empirical.nasa.Nasa'>",
+   "type": "nasa",
    "name": "H2O",
    "phase": "G",
    "elements": {
@@ -80,8 +91,10 @@
     "O": 1
    },
    "notes": "L 8/89",
+   "smiles": null,
    "references": null,
    "statmech_model": null,
+   "mix_models": null,
    "a_low": [
     4.19864056,
     -0.0020364341,
@@ -102,7 +115,9 @@
    ],
    "T_low": 200.0,
    "T_mid": 1000.0,
-   "T_high": 3500.0
+   "T_high": 3500.0,
+   "cat_site": null,
+   "n_sites": null
   }
  ],
  "products_stoich": [
@@ -111,15 +126,18 @@
  "transition_state": [
   {
    "class": "<class 'pMuTT.empirical.nasa.Nasa'>",
-   "name": "H2O",
+   "type": "nasa",
+   "name": "H2O_TS",
    "phase": "G",
    "elements": {
     "H": 2,
     "O": 1
    },
    "notes": "L 8/89",
+   "smiles": null,
    "references": null,
    "statmech_model": null,
+   "mix_models": null,
    "a_low": [
     4.19864056,
     -0.0020364341,
@@ -140,7 +158,9 @@
    ],
    "T_low": 200.0,
    "T_mid": 1000.0,
-   "T_high": 3500.0
+   "T_high": 3500.0,
+   "cat_site": null,
+   "n_sites": null
   }
  ],
  "transition_state_stoich": [
